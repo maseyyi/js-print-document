@@ -1,0 +1,1 @@
+function printDiv(e){var d=document.getElementById("printing-css").value;var c=document.getElementById(e).innerHTML;window.frames.print_frame.document.title=document.title;window.frames.print_frame.document.body.innerHTML="<style>"+d+"</style>"+c;window.frames.print_frame.window.focus();window.frames.print_frame.window.print()};
